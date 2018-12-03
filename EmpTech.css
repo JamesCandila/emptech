@@ -1,0 +1,113 @@
+.parallax {
+    background-image: url("WOC_Retreat_2017.jpg");
+
+    min-height: 600px; 
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2a/Keyboard-anykey.jpg");
+
+    min-height: 600px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ganda{
+  position: absolute;
+  z-index: 1000;
+  top: 150px;
+  left: 100px;
+  font-size: 100px;
+  color: white;
+}
+
+/* FOR THE HEADER */
+
+.* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #fffff2;
+  padding: 10px;
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 18px; 
+  opacity: 0.5;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header a:hover {
+  
+  opacity: 1.0;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+
+.header input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  opacity: 0.8;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
